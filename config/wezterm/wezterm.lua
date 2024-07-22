@@ -26,6 +26,7 @@ local config = {
 
   font_size = 20,
   font = f.get_font({
+    "Cascadia Code NF",
     "DankMono Nerd Font",
   }),
 

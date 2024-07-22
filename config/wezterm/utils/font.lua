@@ -4,7 +4,8 @@ local M = {}
 
 M.get_font = function(fonts)
   local family = h.get_random_entry(fonts)
-  return wezterm.font_with_fallback({ { family = family, weight = "Bold" }, { family = "DankMono Nerd Font" } })
+  local weight = string.find(family, "DankMono") and "Bold" or nil
+  return wezterm.font_with_fallback({ { family = family, weight = weight }, { family = "DankMono Nerd Font" } })
 end
 
 return M

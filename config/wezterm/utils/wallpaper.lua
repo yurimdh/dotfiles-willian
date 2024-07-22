@@ -4,7 +4,8 @@ local M = {}
 
 M.get_wallpaper = function()
   local wallpapers = {}
-  local wallpapers_glob = os.getenv("HOME") .. "/Library/Mobile Documents/com~apple~CloudDocs/Pictures/Wallpapers/Wezterm/**"
+  local wallpapers_glob = os.getenv("HOME")
+    .. "/Library/Mobile Documents/com~apple~CloudDocs/Pictures/Wallpapers/Wezterm/**"
   for _, v in ipairs(wezterm.glob(wallpapers_glob)) do
     if not string.match(v, "%.DS_Store$") then
       table.insert(wallpapers, v)
@@ -15,7 +16,8 @@ M.get_wallpaper = function()
     source = { File = { path = wallpaper } },
     height = "Cover",
     width = "Cover",
-    horizontal_align = "Left",
+    horizontal_align = "Center",
+    vertical_align = "Middle",
     repeat_x = "Repeat",
     repeat_y = "Repeat",
     opacity = 1,
@@ -29,6 +31,7 @@ M.set_nvim_wallpaper = function(name)
     height = "Cover",
     width = "Cover",
     horizontal_align = "Center",
+    vertical_align = "Middle",
     repeat_x = "Repeat",
     repeat_y = "Repeat",
     opacity = 1,
@@ -44,6 +47,7 @@ M.set_tmux_session_wallpaper = function(value)
     height = "Cover",
     width = "Cover",
     horizontal_align = "Center",
+    vertical_align = "Middle",
     repeat_x = "Repeat",
     repeat_y = "Repeat",
     opacity = 1,
