@@ -12,7 +12,6 @@ return {
     ensure_installed = {
       "css-lsp",
       "emmet-ls",
-      "erb-lint",
       "isort",
       "prisma-language-server",
       "rubocop",
