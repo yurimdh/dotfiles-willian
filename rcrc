@@ -1,4 +1,4 @@
-EXCLUDES="*.md LICENSE"
+EXCLUDES="*.md LICENSE config/tmux-plugins"
 DOTFILES_DIRS="$HOME/dotfiles"
 COPY_ALWAYS="git_template/HEAD"
 SYMLINK_DIRS="config/bin config/lazygit config/nvim config/sesh config/tmux config/wezterm config/zsh"

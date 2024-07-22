@@ -34,3 +34,13 @@ This command will create symlinks for config files in your home directory.
 Setting the `RCRC` environment variable tells `rcup` to use standard configuration options:
 
 - Exclude the `README.md`, `README-ES.md` and `LICENSE` files, which are part of the `dotfiles` repository but do not need to be symlinked in.
+
+## TMUX
+
+Install tmux plugin manager:
+
+```shell
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux-plugins/tpm
+```
+
+Then press `prefix` + <kbd>I</kbd> to fetch the plugins: `prefix` is `ctrl + a` by default.
