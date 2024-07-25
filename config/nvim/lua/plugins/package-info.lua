@@ -4,11 +4,11 @@ return {
     ft = "json",
     dependencies = { "MunifTanjim/nui.nvim" },
     keys = {
-      { "<leader>cpt", "<cmd>lua require('package-info').toggle()<CR>", desc = "Toggle" },
-      { "<leader>cpd", "<cmd>lua require('package-info').delete()<CR>", desc = "Delete package" },
-      { "<leader>cpu", "<cmd>lua require('package-info').update()<CR>", desc = "Update package" },
-      { "<leader>cpi", "<cmd>lua require('package-info').install()<CR>", desc = "Install a new package" },
-      { "<leader>cpc", "<cmd>lua require('package-info').change_version()<CR>", desc = "Change package version" },
+      { "<leader>cnt", "<cmd>lua require('package-info').toggle()<CR>", desc = "Toggle" },
+      { "<leader>cnd", "<cmd>lua require('package-info').delete()<CR>", desc = "Delete package" },
+      { "<leader>cnu", "<cmd>lua require('package-info').update()<CR>", desc = "Update package" },
+      { "<leader>cni", "<cmd>lua require('package-info').install()<CR>", desc = "Install a new package" },
+      { "<leader>cnc", "<cmd>lua require('package-info').change_version()<CR>", desc = "Change package version" },
     },
     config = function()
       local palettes = {

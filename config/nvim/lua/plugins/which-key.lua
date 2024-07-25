@@ -5,7 +5,7 @@ return {
       spec = {
         {
           { "<leader>T", group = "terminals" },
-          { "<leader>cp", group = "packages" },
+          { "<leader>cn", group = "packages" },
           { "<leader>ct", group = "tailwind" },
         },
       },
