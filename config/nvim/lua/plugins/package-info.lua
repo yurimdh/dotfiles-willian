@@ -26,6 +26,7 @@ return {
           outdated = palettes[flavour].peach,
         },
         hide_up_to_date = true,
+        hide_unstable_versions = true,
       })
     end,
   },
