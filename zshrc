@@ -108,3 +108,5 @@ done
 [[ -f ${HOME}/Downloads/Andela/google-cloud-sdk/path.zsh.inc ]] && source ${HOME}/Downloads/Andela/google-cloud-sdk/path.zsh.inc
 # The next line enables shell command completion for gcloud.
 [[ -f ${HOME}/Downloads/Andela/google-cloud-sdk/completion.zsh.inc ]] && source ${HOME}/Downloads/Andela/google-cloud-sdk/completion.zsh.inc
+
+eval "$(~/.local/bin/mise activate zsh)"

@@ -44,6 +44,6 @@ zmodule zsh-users/zsh-autosuggestions
 # Utility modules
 # ---------------
 
-zmodule asdf
+# zmodule asdf
 zmodule fzf
 zmodule kiesman99/zim-zoxide
