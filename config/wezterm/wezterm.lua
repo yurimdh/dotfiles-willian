@@ -43,11 +43,11 @@ local config = {
 
   set_environment_variables = {
     TERM_IS_DARK = h.is_dark() and "true" or "false",
-    BAT_THEME = h.is_dark() and "Catppuccin-mocha" or "Catppuccin-latte",
+    BAT_THEME = h.is_dark() and "Catppuccin Mocha" or "Catppuccin Latte",
     TERM = "xterm-256color",
-    LG_CONFIG_FILE = h.is_dark()
-        and "/Users/willian/Library/Application Support/lazygit/config.yml,/Users/willian/Library/Application Support/lazygit/themes/catppuccin/themes-mergable/mocha/yellow.yml"
-      or "/Users/willian/Library/Application Support/lazygit/config.yml,/Users/willian/Library/Application Support/lazygit/themes/catppuccin/themes-mergable/latte/blue.yml",
+    -- LG_CONFIG_FILE = h.is_dark()
+    --     and "/Users/willian/Library/Application Support/lazygit/config.yml,/Users/willian/Library/Application Support/lazygit/themes/catppuccin/themes-mergable/mocha/peach.yml"
+    --   or "/Users/willian/Library/Application Support/lazygit/config.yml,/Users/willian/Library/Application Support/lazygit/themes/catppuccin/themes-mergable/latte/blue.yml",
   },
 
   -- general options

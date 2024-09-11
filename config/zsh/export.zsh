@@ -14,6 +14,8 @@ export RUST_WITHOUT=rust-docs
 
 export RUBY_YJIT_ENABLE=1
 
+export LG_CONFIG_FILE="$HOME/Library/Application Support/lazygit/config.yml,$HOME/.cache/nvim/lazygit-theme.yml"
+
 # Use Catppuccin theme for FZF
 if [[ $TERM_IS_DARK == "true" ]]; then
   export FZF_DEFAULT_OPTS=" \
