@@ -20,14 +20,14 @@ local act = wezterm.action
 
 local config = {
   background = {
-    w.get_wallpaper(),
+    --   -- w.get_wallpaper(),
     b.get_background(),
   },
 
   font_size = 20,
   font = f.get_font({
     "Cascadia Code NF",
-    "DankMono Nerd Font",
+    -- "DankMono Nerd Font",
   }),
 
   harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
