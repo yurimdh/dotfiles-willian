@@ -5,6 +5,6 @@ return {
     skip_confirm_for_simple_edits = true,
   },
   init = function()
-    vim.keymap.set("n", "-", require("oil").open, { desc = "Open parent directory" })
+    vim.keymap.set("n", "-", require("oil").toggle_float, { desc = "Open parent directory" })
   end,
 }
