@@ -41,7 +41,7 @@
 [fetch]
   prune = true
 [github]
-  user = willian
+  user = yurimdh
 [help]
   autosetupmerge = true
   autocorrect = 1
@@ -55,5 +55,5 @@
 [rebase]
   autosquash = true
 [user]
-  email = eu@willianfernandes.com.br
-  name = Willian Fernandes
+  email = yurisantos47@gmail.com
+  name = Yuri Santos

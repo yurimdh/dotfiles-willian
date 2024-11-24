@@ -13,7 +13,7 @@ chsh -s $(which zsh)
 Clone onto your laptop:
 
 ```shell
-git clone git@github.com:willian/dotfiles.git ~/dotfiles
+git clone git@github.com:yurimdh/dotfiles.git ~/dotfiles
 ```
 
 Install [rcm](https://github.com/thoughtbot/rcm):
